@@ -1,0 +1,30 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Anna M Mariam Dibba> -- <Design and Frontend Development> -- <>
+
+# THANKS
+
+    <Abd Al-Ala Camara> -- <Motivating, Assisting, Fixning my errors and Introduce to styleguide and pattern libraries  >
+    <Binta Dibba> -- <Motivating>
+    <Jankeh Dibba> -- <Motivating>
+
+    Dynamic Dummy Image Generator by Russell Heimlich - http://dummyimage.com/
+    X-ray HTML: for the styleguide and pattern library
+
+    Sass: for breaking the CSS into more manageable modules and compile them to generate one stylesheet file.
+
+    Normalize css project for browser consistency style
+
+    A More Modern Scale for Web Typography http://typecast.com/blog/a-more-modern-scale-for-web-typography
+
+    HTML5 BOILERPLATE https://html5boilerplate.com/
+    
+    BEM class naming convention block, element and modifier
+
+# TECHNOLOGY COLOPHON
+
+    HTML (including HTML5), CSS (including CSS3) and JavaScript
+    SASS, jQuery, Normalize.css

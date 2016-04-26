@@ -1,0 +1,27 @@
+.logo {
+
+	display: inline-block;
+
+	img {
+		display: block;
+	}
+}
+
+.logo--mobile {
+	
+}
+
+.logo--desktop {
+	display: none !important;
+
+}
+.logo--desktop:hover {
+	border: none !important;
+}
+
+@media only screen and (min-width: 768px) {
+	.logo--desktop {
+		display: block !important;
+		float: left;
+	}
+}

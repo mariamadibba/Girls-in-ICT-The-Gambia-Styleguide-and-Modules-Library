@@ -1,0 +1,49 @@
+.paralex  {
+	height: 300px;
+}
+
+.paralex--img {
+	background-attachment: fixed;
+}
+
+.paralex-img-1 {
+	background-image: url(../images/random-images/hero-desktop4.jpg);
+}
+.paralex-img-2 {
+	background-image: url(../images/random-images/hero-desktop3.jpg);
+}
+
+.paralex__overlay {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,.5);
+}
+
+
+@media only screen and (min-width: 768px) {
+
+	.paralex { 
+		height: 400px;	  
+	}
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+	.paralex { 
+		height: 500px;	  
+	}
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+	.paralex { 
+		height: 600px;	  
+	}
+
+}

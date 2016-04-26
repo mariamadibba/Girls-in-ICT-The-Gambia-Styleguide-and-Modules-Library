@@ -1,0 +1,102 @@
+* {
+	box-sizing: border-box;
+}
+
+
+//Typography
+body {
+	background-color: $base-bg-color;
+	color: $base-fg-color;
+	line-height: $base-line-height;
+	font-family: $base-font-family;
+	font-size: $base-font-size;
+
+	max-width: 1600px;
+	min-width: 320px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+p {
+	margin-bottom: 1.6em;
+}
+
+
+//Headings
+h1, h2, h3, h4, h5, h6 {
+	margin: .5em 0;
+}
+
+h1  { 
+	font-size: 2em;
+	line-height: 1.25;
+}
+
+h2 { 
+	font-size: 1.625em;
+	line-height: 1.15384615;
+}
+
+h3 { 
+	font-size: 1.375em;
+	line-height: 1.13636364;
+}
+
+h4 { 
+	font-size: 1.125em;
+	line-height: 1.11111111;
+}
+
+
+blockquote {
+	font-size: 1.25em;
+	line-height: 1.25;
+}
+
+
+@media only screen and (min-width: 64.000em) {
+
+	h1  { 
+		font-size: 2.25em;
+		line-height: 1.25;
+	}
+
+	h2 { 
+		font-size: 1.75em;
+		line-height: 1.25;
+	}
+
+	h3 { 
+		font-size: 1.125em;
+		line-height: 1.22222222;
+	}
+
+	h4 { 
+		font-size: 1.125em;
+		line-height: 1.22222222;
+	}
+
+	.lead-heading {
+		font-size: 3.375em;
+		line-height: 1;
+	}
+
+	blockquote,
+	.lead-paragraph {
+		font-size: 1.5em;
+		line-height: 1.45833333;
+	}
+}
+
+
+// Horizontal rule - H5BP
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1.6em 0;
+    padding: 0;
+}

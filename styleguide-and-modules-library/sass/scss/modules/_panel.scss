@@ -1,0 +1,31 @@
+.panel {
+	margin-bottom: 1.6em;
+}
+
+.panel--bordered {
+	border: 1px solid #ccc;
+}
+
+.panel--centered {
+	text-align: center;
+}
+
+.panel__media {
+
+}
+
+.panel__body {
+
+}
+.panel__foot {
+
+}
+
+.panel__body,
+.panel__foot {
+	padding: .5em;
+}
+
+@media only screen and (min-width: 768px) {
+	
+}
